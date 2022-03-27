@@ -1,0 +1,370 @@
+html {
+  scroll-behavior: smooth;
+  background: #58BA6B;
+}
+
+body {
+  margin:auto;
+  max-width: 380px;
+}
+
+header {
+  background-image: url(../img/plan-de-travaille-avec-fruit.webp);
+  margin-top: 8px;
+  padding: 1px;
+}
+
+header div {
+ margin: 28px 30px 26px 34px;
+ padding: 28px 38px 28px 38px;
+ background-color: rgba(255, 255, 255, 0.884);;
+ text-align: center;
+ font-family: 'Quattrocento', serif;
+ font-size: 20pt;
+ font-weight:400;
+ color: #58BA6B;
+}
+
+.link-header {
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #58BA6B;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin: 10px 66px 18px 69px;
+}
+
+.link-header-light {
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  color: #58BA6B;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin: 10px 104px 44px 104px;
+
+}
+
+.link-header:hover {
+  background-color: #ffffff;
+  color: #58BA6B;
+}
+
+.link-header-light:hover {
+  background-color: #58BA6B;
+  color: #ffffff;
+}
+
+.card {
+  background-color: white;
+  padding: 96px 65px 96px 65px ;
+}
+
+.card h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin: 0;
+}
+
+.card p {
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+.icon-fruit-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-fruit-bar img {
+  width: 27px;
+}
+
+.card-article h2 {
+  padding: 47px 0 34px 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  margin: 0px;
+}
+
+.article {
+  margin: 0 30px 44px 30px;
+  border-radius: 20px;
+  padding: 38px 38px  30px 37px;
+  box-shadow: 1px -1px 16px -7px black;
+}
+
+.card-article {
+  background-color: #58BA6B;
+}
+
+.card-article img {
+  width: 80px;
+  float: right;
+  margin-top: 20px;
+}
+
+.card-article h3 {
+  font-family: 'Sriracha', cursive; 
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.card-article p {
+  margin:  0px 0px 54px 0px;
+  font-family: 'Quattrocento', serif;
+}
+
+.card-article a {
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.banane {
+  background-color: #FEF8D5;
+}
+
+.banane p {
+  color: #807D6C;
+}
+
+.kiwi {
+  background-color: #C4F1AC;
+}
+
+.kiwi p {
+  color: #627954;
+}
+
+.cafe {
+  background-color: #D3C6B3;
+}
+
+.cafe p {
+  color: #897F74;  
+}
+
+.fraise {
+  background-color: #F6A5B4;
+}
+
+.fraise p {
+  color: #956470;  
+}
+
+footer {
+  background-color: white;
+  padding: 42px 0px 45px 0px ;
+}
+
+footer h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  color: #58BA6B;
+  text-align: center;
+  font-size: 26px;
+}
+
+.link-footer {
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #58BA6B;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin: 8px 0;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav {
+  align-items: center;
+}
+
+footer p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin: 60px 65px 40px 65px;
+  color: #58BA6B;
+}
+
+footer .icon-fruit-bar {
+  padding: 0px 65px 0px 65px;
+}
+
+.autres-produits {
+  padding-top: 40px;
+}
+
+.header-kiwi {
+  background-color: #C4F1AC;
+  padding-bottom: 50px;
+}
+
+.header-kiwi h2 {
+  font-family: 'Sriracha', cursive; 
+  padding: 68px 0 0 0 ;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.header-kiwi p {
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  color: #627954;
+  font-size: 16px;
+  margin: 0 0 40px 0;
+}
+
+.vignette-container {
+  padding: 50px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 90px 10px;
+  width: 100px;
+}
+
+.kiwi-article {
+  color:white;
+  background-color: #58BA6B;
+  padding: 60px 67px 60px 67px;
+}
+
+.kiwi-article h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.kiwi-article p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+.kiwi-article img { 
+  width: 100%;
+  margin: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+.kiwi-article h2 {
+  font-family: 'Quattrocento', serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ul li {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.mini-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 25px;
+}
+
+.mini-card img {
+  width: 55px;
+}
+
+.autres-produits {
+  background-color: #C4F1AC;
+}
+
+.autres-produits h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+
+.card-fraise {
+  background-color: #E2A2B1;
+  width: 151px;
+  width: 151px;
+  height: 153px;
+  border-radius: 20px;
+}
+
+.card-fraise h2 {
+  font-family: 'Sriracha', cursive; 
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.card-fraise p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 38px;
+  margin: 0;
+}
+
+.card-cafe {
+  height: 153px;
+  border-radius: 20px;
+  width: 151px;
+  background-color: #CDC4B0;
+}
+
+.card-cafe h2 {
+  font-family: 'Sriracha', cursive; 
+  font-size: 20px;
+  font-weight: 400;
+  padding: 25px 15px;
+  margin: 0;
+}
+
+.card-cafe p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 38px;
+  margin: 0;
+}
+
+.link-produits {
+font-family: 'Maven Pro', sans-serif;
+text-decoration: none;
+color: #ffffff;
+background-color: #58BA6B;
+padding: 15px 20px;
+border-radius: 12px;
+display: inline-block;
+justify-content: center;
+}
+
+.container-fruit {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.autres-produits .link-produits {
+  margin: 40px 10px 40px 90px;
+}

@@ -2,8 +2,93 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Quattrocento:wght@400;700&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <title>EMOJUICE</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div>
+        <img src="./img/logo-emojuice.svg" alt="picture logo emojuice" />
+        <h> Boissons végétales préparées avec amour </h>
+      </div>
+    </header>
+
+    <main>
+      <div class="header-kiwi">
+        <h2>Sirop kiwi</h2>
+        <p>En vert et contre tous.</p>
+        <div class="vignette-container">
+          <img src="./img/kiwi.svg" alt="kiwi icon" />
+        </div>
+      </div>
+      <article class="kiwi-article">
+        <h1>Le kiwi</h1>
+        <p>
+          Un seul kiwi renferme une quantité impressionnante de fibre. Grâce aux
+          antioxydants qu'il contient, le consommer régulièrement préviendrait
+          l'apparition de maladies cardiovasculaires et de certains cancers.
+        </p>
+        <figure>
+          <img src="./img/kiwi.webp" alt="plant de travaille avec des kiwi" />
+        </figure>
+        <h2>Valeurs nutritionnelles et calorique du kiwi</h2>
+        <ul>
+          <li>Calories: 60,5g</li>
+          <li>Protéines: 0,88g</li>
+          <li>Glucides: 11g</li>
+          <li>Lipides: 0,6g</li>
+          <li>Fibres alimentaires: 2,4g</li>
+        </ul>
+      </article>
+      <div class="autres-produits">
+        <h1>Nos autres produits</h1>
+        <div class="mini-card">
+          <article class="card-fraise">
+            <h2>Délices à la fraise</h2>
+            <div class="container-fruit">
+              <img src="./img/fraise.svg" alt="fraise-icon" />
+              <p>+</p>
+            </div>
+          </article>
+          <article class="card-cafe">
+            <h2>Glace au café</h2>
+            <div class="container-fruit">
+              <img src="./img/tasse-cafe.svg" alt="café-icon" />
+              <p>+</p>
+            </div>
+          </article>
+        </div>
+        <a href="index.html" class="link-produits">Accédez à nos produits</a>
+      </div>
+    </main>
+    <footer>
+      <h1 id="contact">Nous contacter</h1>
+      <nav class="buttons-container">
+        <a href="mailto:emojuice@veggies.ch" class="link-footer">
+          emojuice@veggies.ch</a
+        >
+        <a
+          href="https://www.instagram.com/?hl=fr"
+          target="blank"
+          class="link-footer"
+          >Instagram</a
+        >
+        <a href="https://fr-fr.facebook.com/" class="link-footer">Facebook</a>
+      </nav>
+      <p>Emojuice est une marque déposée par Veggies inc. Switzerland</p>
+      <div class="icon-fruit-bar">
+        <img src="./img/banane-cote-droit.svg" alt="banane-icon" />
+        <img src="./img/kiwi.svg" alt="kiwi-icon" />
+        <img src="./img/pomme.svg" alt="pomme-icon" />
+        <img src="./img/ananas.svg" alt="ananas-icon" />
+      </div>
+    </footer>
+  </body>
 </html>
