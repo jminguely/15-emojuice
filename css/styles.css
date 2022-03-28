@@ -1,0 +1,268 @@
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
+header {
+  background-image: url("../img/img_fruits.webp");
+  padding: 30px;
+  padding-bottom: 0;
+  border-top: solid 8px #7db96f;
+  display: flex; 
+  flex-direction: column;
+  justify-content:  center;
+  font-family: 'Quattrocento', serif;
+  font-size: 17px;
+  color: #7db96f;
+}
+
+.title-container {
+  background-color: #ffffffe0; 
+  padding: 20px 60px; 
+  margin-bottom: 20px;
+}
+
+.button,
+.button-contact {
+  background-color: #7db96f;
+  padding: 14px 22px;  
+  border-radius: 12px; 
+  text-align: center;
+  margin-bottom: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.button-contact {
+  background-color: white;
+  color: #7db96f;
+  max-width: 150px;
+  margin-bottom: 44px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fruit-container {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.presentation {
+  text-align: center;
+  padding: 70px 50px;
+  background-color: white;
+  color: black;
+  font-family: 'Quattrocento', serif;
+  font-size: 17px;
+}
+
+.presentation h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 24px;
+}
+
+.fruit-container img {
+  width: 28px; 
+}
+
+.introduction {
+  background-color: #d0f1ae;
+  text-align: center;
+  color: black;
+  padding: 96px 50px;
+}
+
+.introduction h2 {
+  font-family: 'Sriracha', cursive;
+}
+
+.background-img {
+  background-color: white;
+  border-radius: 200px;
+  padding: 45px;
+  margin: 45px;
+  box-shadow: 0 0 10px 7px #0000004a;
+}
+
+.case-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-img img {
+  width: 160px;
+}
+
+.introduction p {
+  color: #0000008c;
+  font-family: 'Quattrocento', serif;
+}
+
+main {
+  background-color: #7db96f;
+  text-align: center;
+  color: white;
+}
+
+main h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.article-container {
+  background-color: #7db96f;
+  padding: 45px 30px;
+}
+
+.article-banana,
+.article-coffee,
+.article-strawberry,
+.article-kiwi {
+  color: black;
+  text-align: left;
+  padding: 39px 35px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin-bottom: 40px;
+  font-family: 'Sriracha', cursive;
+}
+
+.article-banana p,
+.article-coffee p,
+.article-strawberry p,
+.article-kiwi p {
+  color: #0000008c;
+  font-family: 'Quattrocento', serif;
+  font-size: 15px;
+}
+
+.article-banana a,
+.article-coffee a,
+.article-strawberry a,
+.article-kiwi a {
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 13px;
+}
+
+.article-banana {
+  background-color: #fcf7d6;
+}
+
+.article-coffee {
+  background-color: #cdc4b0;
+}
+
+.article-strawberry {
+  background-color: #e2a2b1;
+}
+
+.article-kiwi {
+  background-color: #d0f1ae;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  max-width: 70px;
+}
+
+.article-recipe {
+  text-align: left;
+  padding: 70px 50px;
+  font-family: 'Quattrocento', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.article-recipe h2 {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.article-recipe img {
+  max-width: 246px;
+}
+
+.more-products {
+  background-color: #d0f1ae;
+  color: black;
+  padding: 30px; 
+  padding-bottom: 50px;
+}
+
+.more-products h1 {
+  font-size: 16px; 
+}
+
+.products-container a {
+  text-decoration: none;
+  color: #0000008c;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 25px;
+}
+
+.more-products img {
+  width: 50px;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.products-strawberry {
+  background-color: #e2a2b1;
+  width: 35%;
+}
+
+.products-coffee {
+  background-color: #cdc4b0;
+  width: 35%; 
+}
+
+.products-coffee,
+.products-strawberry {
+  border-radius: 20px;
+  font-family: 'Sriracha', cursive;
+  padding: 10px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin: 30px 0;
+}
+
+.duo-products {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  padding: 42px 50px;
+  color: #7db96f;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 17px;
+}
+
+footer p {
+  font-size: 11px;
+  margin-bottom: 30px;
+}
