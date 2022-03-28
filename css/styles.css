@@ -1,0 +1,297 @@
+/* 
+
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Sriracha', cursive;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+/* header */
+
+header {
+  background-image: url(../img/fruits.webp);
+  color: #7db96f;
+  padding: 20px 37px 30px;
+  border-top: 8px solid #7db96f;
+  background-size: cover;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.781);
+  font-family: "Quattrocento", serif;
+  padding: 16px 38px 28px;
+  margin-bottom: 10px;
+}
+
+header img {
+  max-width: 205px;
+  max-height: 45px;
+}
+
+header h1 {
+  margin: 36px 40px 12px 20px;
+}
+
+.button {
+  border-radius: 15px;
+  background-color: #7db96f;
+  color: white;
+  padding: 10px 20px 12px;
+  margin: 10px 0;
+}
+
+.button-footer {
+  margin: 5px 0;
+  box-shadow: 0 0 2px #0000005d;
+}
+
+.button-blanc {
+  background-color: white;
+  border: white;
+  color: #7db96f;
+}
+
+.button-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+/* main + index.html */
+
+main img {
+  max-height: 80px;
+}
+
+p {
+  font-family: "Quattrocento", serif;
+}
+
+.line-fruit {
+  max-height: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.line-fruit img {
+  width: 30px;
+}
+
+.presentation {
+  padding: 50px;
+}
+
+article {
+  text-align: start;
+}
+
+article h1 {
+  font-family: "Sriracha", cursive;
+  font-weight: 100;
+}
+
+.section-product {
+  background-color: #7db96f;
+  padding: 10px;
+}
+
+.section-product h2 {
+  color: white;
+}
+
+article h1 {
+  font-size: 30px;
+}
+
+.product p {
+  color: #00000081;
+}
+
+.product {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0000005d;
+  padding: 20px 37px 30px;
+}
+
+.product-banana {
+  background-color: #fcf7d6;
+}
+
+.product-kiwi {
+  background-color: #d0f1ae;
+}
+
+.product-cafe {
+  background-color: #cdc4b0;
+}
+
+.product-strawberry {
+  background-color: #e2a2b1;
+}
+
+.read-more {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.section-product article {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 30px;
+}
+
+/* kiwi.html .introduction */
+
+.introduction {
+  padding: 20px 60px;
+  background-color: #d0f1ae;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction h1 {
+  font-family: 'Sriracha', cursive;
+  font-weight: 100;
+}
+
+.introduction p {
+  color: #00000081;
+}
+
+.introduction img {
+  max-height: none;
+}
+
+.circle {
+  background-color: white;
+  padding: 35px;
+  margin:  30px 42px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00000027;
+}
+
+/* kiwi.html .recipe */
+
+.recipe {
+  background-color: #7db96f;
+  padding: 30px 60px;
+  color: white;
+}
+
+.recipe figure img {
+  width: 100%;
+  max-height: none;
+  margin: 10px 0;
+}
+
+.recipe p {
+  padding: 10px 0;
+}
+
+.recipe ul {
+  padding: 10px;
+  list-style: inside;
+  margin: 0 0 0 10px;
+}
+
+.recipe h2, h3 {
+  padding: 10px 0;
+}
+
+/* kiwi.html .presentation-product */
+
+.presentation-products {
+  background-color: #d9f1b0;
+  padding: 30px;
+  
+}
+
+.other-products {
+  margin: 30px 0;
+  display: flex;
+  flex-direction:row;
+}
+
+.presentation-products .product-strawberry,
+.presentation-products .product-cafe {
+  width: 50%;
+}
+
+.other-products h1 {
+  font-size: 24px;
+}
+
+.product-square {
+  padding: 15px;
+  margin: 10px;
+}
+
+.duo-product {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.other-products a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.duo-product img {
+  max-height: 55px;
+}
+
+/* footer */
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  color: #7db96f;
+  padding: 20px 68px 30px;
+}
+
+footer p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 12px;
+  margin-top: 50px;
+}
