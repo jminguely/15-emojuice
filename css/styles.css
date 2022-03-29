@@ -1,0 +1,267 @@
+:root {
+    --green : #57BB6B ;
+    --Maven : 'Maven Pro', sans-serif;
+    --Quattrocento: 'Quattrocento', serif;
+    --Sriracha : 'Sriracha', cursive;
+    --green-light : #C4F2AD;
+    --Strawberry :#F7A4B4;
+
+}
+body {
+    text-align: center;
+    background-color: var(--green) ;
+    margin: 8px 0px;
+    margin: auto;
+    max-width: 400px;
+}
+.home {
+    background-image: url("../img/fruitspng.webp");
+    background-size: cover;
+    height: 380px;
+    padding: 28px;
+}
+.ticket {
+ text-align: center;
+ background-color: rgba(255, 255, 255, 0.76) ;
+ padding: 36px 0px ;
+}
+.ticket img {
+    width: 210px;
+}
+.description {
+    font-size: 20px;
+    font-family: var(--Quattrocento);
+    color: var(--green);
+    margin: 15px 74px 33px 83px;
+}
+nav div {
+    margin: 33px ;
+    margin-bottom: 50px;
+}
+nav div a {
+    padding: 15px 13px 13px 17px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: var(--Maven) ;
+}
+.button {
+    background-color: var(--green);
+    color: white;
+    padding: 15px 14px 13px 18px;
+    margin: 20px 77px 0px 64px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: var(--Maven);
+    
+}
+.button-light { 
+    background-color: white;
+    color: var(--green);
+    margin: 20px 20px 30px;
+    padding: 20px;
+  }
+
+.intro {
+    background-color: white;
+    padding: 62px 0px ;
+}
+.intro p {
+    font-size: 16px;
+    font-family: var(--Quattrocento);
+}
+h1 {
+    margin: 0px;
+}
+.fruitline {
+    width: 30px;
+    padding: 0px 15px;
+    margin: 0px 0px 46px 0px;
+}
+.title {
+font-size: 26px;
+ font-family: var(--Maven);
+ font-style: bold;
+ margin: 10px 98px 31px 92px;
+}
+.Product {
+    margin: 40px 30px;
+}
+.titleProducts {
+color: white;
+font-size: 26px;
+font-family: var(--Maven);
+margin-bottom: 35px;
+}
+.fruitboard {
+    margin-bottom: 44px;
+    height: 240px;
+    padding: 35px 40px;
+    border-radius: 25px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.568) ;
+}
+.fruitTitle {
+    font-family: var(--Sriracha);
+    font-size: 30px;
+}
+.remark {
+    font-family: var(--Quattrocento);
+    font-size: 16px;
+    opacity: 50%;
+    text-align: left;
+    margin: 0px;
+}
+.fruitPage {
+    font-size: 14px;
+    font-family: var(--Maven);
+    font-style: bold;
+    padding-top: 100px;
+    padding-right: 93px;
+}
+.banane {
+    background-color: #FFF8D7 ;
+}
+.kiwi {
+    background-color: var(--green-light);
+}
+.café {
+    background-color: #D3C6B2;
+}
+.fraise {
+    background-color: var(--Strawberry);
+}
+.fruitboard img {
+    width: 74px;
+    padding-top: 59px;  
+}
+h2 {
+   margin: 0px;
+}
+h3 {
+    font-size: 18px;
+    font-family: var(--Quattrocento);
+}
+p {
+    margin:27px 95px 36px 96px ;
+}
+.footer {
+    background-color: white;
+} 
+ .footer .title {
+    padding: 43px 93px 35px 100px;
+ }
+ .Product .container  {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: flex-end;
+
+ }
+ .source {
+     font-family:var(--Maven) ;
+     font-size: 12px;
+     color:var(--green) ;
+     margin: 83px 124px 52px 121px;
+
+ }
+
+ footer .title {
+    font-size: 26px;
+     font-family: var(--Maven);
+     font-style: bold;
+     margin: 43px 93px 35px 100px;
+ }
+ .container-kiwi {
+     color: white;
+     text-align: left;
+     font-family: var(--Quattrocento);
+     font-size: 16px;
+
+     
+ }
+ img {
+    width: 60%;
+ }
+ .contact {
+     text-align: center;
+     padding: 55px;
+     color:var(--green) ;
+     font-family:var(--Maven) ;
+
+ }
+ .presentation {
+     background-color:var(--green-light) ;
+     padding: 79px 122px 68px 126px; 
+ }
+ .kiwi-img {
+     margin: 31px 67px 38px 69px;
+ }
+ .ProductTitle{
+    margin: 0px 6px 0px 18px;
+    width: 170px;
+    border-radius: 25px;
+ }
+ .subtitle {
+     font-size: 20px;
+     font-family: var(--Sriracha);
+ }
+ ul {
+     font-family: var(--Quattrocento);
+     font-size: 16px;
+ }
+  .morePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+ }
+ .OtherProduct {
+     background-color: var(--green-light);
+     margin: 0px;
+     height: 333px;
+ }
+.ImgPlus {
+    width: 40px;
+}
+.ImgIcon {
+    width: 70px;
+margin: 0px 16px 16px 0px  ;
+
+}
+.containerPage {
+    display: flex;
+    }
+    .ProductTitle .fraise {
+        background-color: var(--Strawberry);
+    }
+    .brun {
+        background-color: #D3C6B2;
+    } 
+    .Plus {
+        margin: 0px;
+    }
+    .morePage {
+        margin: 50px 2px 3px 21px;
+    }
+    .ancre {
+        display: flex;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        margin: 20px 0px; 
+        padding: 20px;
+    }
+
+    .container .button {
+        padding: 15px 14px 13px 18px;
+       margin:20px 77px 0px 64px;
+       border-radius: 15px;
+       text-decoration: none;
+       font-family: var(--Maven) ;
+   }
