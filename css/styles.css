@@ -1,0 +1,265 @@
+body {
+  border-top: 8px solid #57bb6b;
+  margin: auto;
+  max-width: 380px;
+  box-shadow: 0 0 50px rgb(0 0 0 / 20%);
+  text-align: center;
+  font-family: "Quattrocento", serif;
+}
+
+.header-site { 
+  background-image: url(../img/fruit-salad.webp);
+  background-size: 100%;
+  background-size: cover;
+  padding: 30px;
+  color: #57bb6b;
+  font-size: 20px;
+}
+
+main {
+  background-color: #D0F1AE;
+}
+
+footer {
+  color: #57bb6b;
+  padding: 30px 30px 15px;
+}
+
+h1,
+h2 {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-family: "Maven Pro", sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Sriracha', cursive;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+article {
+  color: #000000;
+}
+
+article img { 
+  width: 20%;
+}
+
+ul {
+  font-family: "Quattrocento", serif;
+}
+
+.title {
+  background-color: #ffffffdd;
+  padding: 20px 50px;
+  margin-bottom: 30px;
+}
+
+.introduction {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.produit {
+  background-color: #57bb6b;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+}
+
+.contact{
+  background-color: #ffffff;
+  color: #57bb6b;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.container img {
+  width: 30px;
+}
+
+.nos-produits {
+  background-color: #57bb6b;
+  color: #ffffff;
+  padding: 30px 30px 50px;
+}
+
+.product-fruit {
+  padding: 14px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.header-article {
+  text-align: left;
+  font-family: 'Sriracha', cursive;
+}
+
+.title-product {
+  margin: 0px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 16px; 
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Quattrocento", serif;
+}
+
+.readmore {
+  width: 50%;
+  text-align: left;
+  font-size: 14px;
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.product .vignette {
+  width: 30%;
+}
+
+.banane {
+  background-color: #FFF8D7;
+}
+
+.kiwi {
+  background-color: #C4F2AD;
+}
+
+.cafe {
+  background-color: #D3C6B2;
+}
+
+.fraise {
+  background-color: #F7A4B4;
+}
+
+.credit {
+  padding: 30px 40px 20px;
+  font-size: 12px;
+}
+
+footer .container {
+  padding: 0 50px;
+}
+
+.presentation {
+  padding-top: 30px;
+  padding: 50px;
+}
+
+.title-presentation {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.presentation-text {
+  opacity: 0.5;
+}
+
+.kiwi-image { 
+  background-color: #ffffff;
+  padding: 40px;
+  margin: 30px 50px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  width: 35%;
+  border-radius: 50%;
+}
+
+.info-kiwi {
+  background-color: #57bb6b;
+  color: #ffffff;
+  text-align: left;
+  padding: 30px 60px;
+}
+
+.plus-produit {
+  padding: 30px 30px 50px;
+}
+
+.produit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.produit-container img {
+  width: 50px;
+}
+
+.duo-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fraise-element,
+.cafe-element {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px 0;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  font-family: 'Sriracha', cursive;
+}
+
+.title-element {
+  font-size: 17px;
+  text-align: left;
+}
+
+.fraise-element {
+  background-color: #E2A2B1;
+  width: 36%;
+}
+
+.cafe-element {
+  background-color: #CDC4B0;
+  width: 36%;
+}
